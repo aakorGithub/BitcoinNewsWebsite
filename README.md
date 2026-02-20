@@ -2,7 +2,7 @@
 
 A modern React-based web application for cryptocurrency enthusiasts. Stay updated with the latest Bitcoin news and engage in real-time discussions about Bitcoin topics with the integrated chat feature.
 
-## 🚀 Features
+## Features
 
 - **Bitcoin News Feed** - Browse the latest cryptocurrency and Bitcoin news articles
 - **Live Chat** - Discuss Bitcoin topics with other users in real-time
@@ -18,7 +18,7 @@ A modern React-based web application for cryptocurrency enthusiasts. Stay update
 - **Build Tool:** Create React App
 - **Testing:** Jest & React Testing Library
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -38,7 +38,7 @@ A modern React-based web application for cryptocurrency enthusiasts. Stay update
 
    The application will open at [http://localhost:3000](http://localhost:3000)
 
-## 📝 Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -51,7 +51,7 @@ Launches the test runner in interactive watch mode.
 ### `npm run build`
 Builds the app for production to the `build` folder. The build is optimized for the best performance.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Bitcoin_News_Website/
@@ -70,14 +70,14 @@ Bitcoin_News_Website/
 └── README.md           # This file
 ```
 
-## 🎯 Getting Started
+## Getting Started
 
 1. After installation, run `npm start` to launch the development server
 2. Browse Bitcoin news articles from the feed
 3. Use the search feature to find specific topics
 4. Join the chat to discuss Bitcoin with other enthusiasts
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Fork the repository
@@ -86,14 +86,14 @@ Contributions are welcome! Feel free to:
 - Push to the branch (`git push origin feature/YourFeature`)
 - Open a Pull Request
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 💬 Support
+## Support
 
 For questions or issues, please open an issue on GitHub or contact the maintainers.
 
 ---
 
-**Happy news browsing and chatting! 🚀**
+**Happy news browsing and chatting! **
