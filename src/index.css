@@ -1,0 +1,71 @@
+/* index.css - Contains global styles for the website including header and nav. */
+
+
+/* General page styling */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.hero {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Navigation styling */
+.hero-nav ul {
+  list-style: none;           
+  display: flex;              
+  justify-content: center;   
+  padding: 0;
+  margin: 20px 0;
+  gap: 20px;                  
+}
+
+.hero-nav li {
+  display: inline;
+}
+
+.hero-nav a {
+  color: rgb(126, 46, 46);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-nav a:hover {
+  text-decoration: underline;
+
+}
+
+/* All elements for footer and layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
