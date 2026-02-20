@@ -10,7 +10,7 @@ A modern React-based web application for cryptocurrency enthusiasts. Stay update
 - **Search Functionality** - Find specific news articles or topics
 - **Modern UI** - Clean and intuitive user interface built with React
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework:** React 19.2.0
 - **Language:** TypeScript
