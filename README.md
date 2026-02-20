@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+# Bitcoin News Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based web application for cryptocurrency enthusiasts. Stay updated with the latest Bitcoin news and engage in real-time discussions about Bitcoin topics with the integrated chat feature.
 
-## Available Scripts
+## 🚀 Features
+
+- **Bitcoin News Feed** - Browse the latest cryptocurrency and Bitcoin news articles
+- **Live Chat** - Discuss Bitcoin topics with other users in real-time
+- **Responsive Design** - Seamless experience on desktop and mobile devices
+- **Search Functionality** - Find specific news articles or topics
+- **Modern UI** - Clean and intuitive user interface built with React
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React 19.2.0
+- **Language:** TypeScript
+- **Styling:** CSS
+- **Build Tool:** Create React App
+- **Testing:** Jest & React Testing Library
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/aakorGithub/BitcoinNewsWebsite.git
+   cd BitcoinNewsWebsite
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+   The application will open at [http://localhost:3000](http://localhost:3000)
+
+## 📝 Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Runs the app in development mode. The page will reload when you make edits.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
+Builds the app for production to the `build` folder. The build is optimized for the best performance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+Bitcoin_News_Website/
+├── public/               # Static files
+├── src/
+│   ├── App.tsx          # Main application component
+│   ├── Header.tsx       # Header and navigation component
+│   ├── Footer.tsx       # Footer component
+│   ├── Search.tsx       # Search functionality
+│   ├── WebsiteLogo.tsx  # Logo component
+│   ├── Assets/          # Images and static assets
+│   ├── index.tsx        # React entry point
+│   └── index.css        # Global styles
+├── package.json         # Project dependencies
+├── tsconfig.json        # TypeScript configuration
+└── README.md           # This file
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 Getting Started
 
-### `npm run eject`
+1. After installation, run `npm start` to launch the development server
+2. Browse Bitcoin news articles from the feed
+3. Use the search feature to find specific topics
+4. Join the chat to discuss Bitcoin with other enthusiasts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🤝 Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Feel free to:
+- Fork the repository
+- Create a feature branch (`git checkout -b feature/YourFeature`)
+- Commit your changes (`git commit -m 'Add some feature'`)
+- Push to the branch (`git push origin feature/YourFeature`)
+- Open a Pull Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📄 License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project is open source and available under the MIT License.
 
-## Learn More
+## 💬 Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For questions or issues, please open an issue on GitHub or contact the maintainers.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+**Happy news browsing and chatting! 🚀**
